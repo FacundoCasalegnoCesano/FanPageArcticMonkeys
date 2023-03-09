@@ -1,0 +1,16 @@
+{
+  "name": "arctic-monkeys",
+  "version": "1.0.0",
+  "description": "fan page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "facundo casalegno cesano",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21"
+  }
+  "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css", "watch-css":"nodemon -e scss -x\"npm run build-css\""
+}

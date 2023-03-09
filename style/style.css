@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    
+    color: white;
+    background-color: black;    
+    background-image: url(../img/thumb-1920-609249.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo navbar*/
+
+.nav_color{
+    color: white;
+    flex-direction: row;
+}
+
+.posicionamiento{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/*Estilo Index*/
+
+.box{
+    font-size: 30px;
+    background-color: #212529;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid #212529;
+    height: 150px;
+    width: 300px;
+    align-items: center;
+    margin-left: 790px;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.sub-titulo{
+    background-color: #212529;
+    width:fit-content;
+    height: fit-content;
+    border: 5px solid #212529;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+
+.historia{
+    background-color:  #212529;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid  #212529;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.info{
+    background-color:  #212529;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid  #212529;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+
+.imagenes-historia{
+    display: flex;
+    justify-content: center;
+    flex-direction: space-evenly;
+    margin: 10px 30px;
+    background-color: #212529;
+    width:fit-content;
+    height: fit-content;
+    border: 10px solid #212529;
+    border-radius: 10px;
+    flex-direction: ;
+}
+
+.grid-historia{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.titulo_inicial{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    margin-bottom: -20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.container_principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: 40px 20px;
+    text-align: center;
+}
+
+h3{ 
+    text-align: center;
+    padding: 40px;
+    margin: 10px 10px;
+
+}
+
+.titulo{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    margin-left: 770px;
+    margin-top: 30px;
+}
+
+.descripcion1{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    height: 50px;
+    width: 900px;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+.titulo2{    
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    height:25px;
+    width: 250px;
+    align-items: center;
+    margin-left: 790px;
+    margin-top: 30px;
+}
+
+.titulo3{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid black;
+    height:25px;
+    width: 100px;
+    align-items: center;
+    margin-left: 875px;
+    margin-top: 30px;
+}
+
+.portada{
+    margin-left: 41.75%;
+}
+
+
+/* Estilo Albumes*/
+
+.conatainerAlbum{
+
+}
+
+/*
+.albumes{
+    padding: 40px;
+    margin: 20px 10px;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 9px 11px 43px 11px rgba(255,255,255,1);
+    -webkit-box-shadow: 9px 11px 43px 11px rgba(255,255,255,1);
+    -moz-box-shadow: 9px 11px 43px 11px rgba(255,255,255,1);
+    display: flex;
+    border-radius: 10px;
+}
+
+
+.album1{
+    width: 200px;
+    height: 200px;
+    background-color: #212529;
+    
+}
+*/
+
+/* Estilo footer */
+
+.footer{
+    height: 100px;
+    padding: 1em 0;
+}
+
+.footer-color{
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-pos{
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 790px;
+    margin-top: 30px;
+}
+
+.iconos{
+    position: relative;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.contenedor-iframe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-redes{
+
+}
+
+.imgRedes{
+    height: 34px;
+}
+
+.imgRedes:hover{
+    height: 40px;
+}

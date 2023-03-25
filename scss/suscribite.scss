@@ -1,0 +1,43 @@
+.section__form{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .contenedor__titulo-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: underline;
+        margin: 40px;
+        h1{
+            text-align: center;
+        }
+    }
+    .containerForm{
+        width: 500px;
+        background:$color-contintegrantes;
+        padding: 10px 20px;
+        border-radius: 15px;
+        .titulo-form{
+            text-align: center;
+            margin: 0px;
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: $color-texto;
+        }
+        label{
+            color: $color-texto;
+        }
+        .form-input .form-textArea{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        textarea{
+            min-height: 100px !important;
+            max-height: 200px !important;
+            max-width: 100% !important;
+        }
+    }
+}

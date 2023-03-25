@@ -4,70 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce a los Arctic Monkeys, una banda de rock británica famosa por su estilo de música indie y sus letras ingeniosas. Descubre quiénes son los miembros de la banda, su historia y su impacto en la música moderna">
+    <meta name="keywords" content="Arctic Monkeys,banda de rock,indiemúsica británica,Alex Turner,Jamie Cook,Nick O'Malley,Matt Helders,Sheffield,letras ingeniosas,historia de la banda,discografía,giras,premios">
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="./style/bootstrap.min.css">
-    <link rel="stylesheet" href="./style/estilo.css">
-    <title>Inicio</title> 
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Arctic Monkeys - Conoce a la banda británica de rock indie</title>
 </head>
 <body>
-    <header>
+    <header class="mb-5 cabecera">
         <nav class="navbar navbar-expand-lg navbar-ligth bg-dark nav_color">
-            <div class="container-fluid nav_color">
-                <a class="navbar-brand" href="#"><img src="./img/ImagenLogo.png" alt="logo" width="90" height="90"></a>
+            <div class="container-fluid contenedorLogo">
+                <a class="navbar-brand" href="#"><img src="./img/ImagenLogo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav posicionamiento">
+                <ul class="navbar-nav posicionamiento flexible">
                 <li class="nav-item">
-                    <a class="nav-link nav_color" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav_color" href="./pages/albumes.html">Discografia</a>
+                    <a class="nav-link" href="./pages/discografia.html">Discografia</a>
                 </li>
                 <li>
-                    <a class="nav-link nav_color" href="./pages/integrantes.html">Integrantes</a>
+                    <a class="nav-link" href="./pages/integrantes.html">Integrantes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav_color" href="./pages/giras.html">Giras</a>
+                    <a class="nav-link" href="./pages/giras.html">Giras</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link nav_color" href="./pages/misfavs.html">Mis Favoritos</a>
+                    <a class="nav-link" href="./pages/suscribite.html">Suscribite</a>
                 </li>
                 </ul>
                 </div>
             </div>
         </nav>
     </header>
+
     <main>
-            <div class="box">Bienvenidos a la fan page de los Arctic Monkeys</div>
-                <section>
-                        <h2 class="sub-titulo">¿Quienes son los Arctic Monkeys?</h2>
-                            <p class="historia">Los Arctic Monkeys se formaron a mediados del 2001 por un grupo de amigos conformado por Alex Turner, Matt Helders y Andy Nicholson. Turner y Helders eran vecinos y mejores amigos, y conocieron a Nicholson en la secundaria. Turner, quien creció en el seno de una familia musical debido a que su padre era un profesor de música, inició tocando la guitarra en una banda instrumental, con Helders en la batería, Nicholson en el bajo, y el nuevo miembro Jamie Cook como segunda guitarra. Inicialmente, Turner era reacío a ser el vocalista principal. En un artículo de la revista Blender de mayo de 2006 se menciona "Cuando su primer vocalista, Glyn Jones, dejó la banda después de unos meses, Turner tomó el micrófono." Este hecho fue nuevamente reportado más detalladamente en el tabloide británico The Sun, en el cual Jones cuenta que una tarde, después de unos exámenes, estaban aburridos con Alex, así que empezaron a escribir una canción acerca de Sheffield, ciudad natal de la banda. Glyn era el cantante principal solo porque "Alex era muy tímido y no era consciente de su gran voz... pero estaba contento tocando su guitarra." Con el pasar del tiempo, Turner se volvió el vocalista y el líder de la banda debido a que "tenía una gran cosa con las letras", según Helders.Antes de su primer concierto, la banda ensayó en el garaje de Turner durante un año,y después en un almacén abandonado de un pequeño pueblo llamado Wath. Según la madre de Helders, quien conducía a los adolescentes a su lugar de ensayo ida y vuelta tres veces a la semana, "si ellos sabían que tú estabas ahí, simplemente pararían, por lo que nos teníamos que escabullir". Su primer concierto fue un viernes 12 de junio de 2003 en un pub local llamado The Grapes en el centro de Sheffield.El setlist, el cual se grabó, estuvo compuesto por cuatro canciones originales y cuatro versiones de covers de The Beatles, The White Stripes, The Undertones y The Datsuns.</p>
-                                <section class="grid-historia">
-                                    <div class="imagenes-historia">
-                                        <img src="./img/integrantes-inicios.png" alt="integrantes-inicios" width="600" height="400">
-                                    </div>
-                                    <div class="imagenes-historia">
-                                        <img src="./img/integrantes-actualidad.png" alt="integrantes-actualidad" width="600" height="400">
-                                    </div>
-                                </section>
-                                <p class="info">Aca les dejo un video para que conozcan mas a la banda</p>
-                                <div class="contenedor-iframe">
-                                    <iframe width="500" height="400" src="https://www.youtube.com/embed/jDocHzX9UK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                                </div>
+            <section class="section__contenidoPrincipal">
+                <div class="contenedor__contenidoPrincipal-titulo">
+                    <h1 class="titulo-principal">Arctic Monkeys</h1>
+                </div>
+                    <div class="contenedor__contenidoPrincipal-info">
+                        <h2 class="sub-titulo">¿Quiénes son los Arctic Monkeys?</h2>
+                        <div class="contenedor__contenidoPrincipal-parrafo">
+                            <p>Los Arctic Monkeys seformaron a mediados del 2001 por un grupode amigos conformado por Alex Turner,Matt Helders y Andy Nicholson. Turner yHelders eran vecinos y mejores amigos, yconocieron a Nicholson en la secundaria.Turner, quien creció en el seno de unafamilia musical debido a que su padre eraun profesor de música, inició tocando laguitarra en una banda instrumental, conHelders en la batería, Nicholson en elbajo, y el nuevo miembro Jamie Cook comosegunda guitarra. Inicialmente, Turnerera reacío a ser el vocalista principal.En un artículo de la revista Blender demayo de 2006 se menciona "Cuando suprimer vocalista, Glyn Jones, dejó labanda después de unos meses, Turner tomóel micrófono." Este hecho fue nuevamentereportado más detalladamente en eltabloide británico The Sun, en el cualJones cuenta que una tarde, después deunos exámenes, estaban aburridos conAlex, así que empezaron a escribir unacanción acerca de Sheffield, ciudad natalde la banda. Glyn era el cantanteprincipal solo porque "Alex era muytímido y no era consciente de su granvoz... pero estaba contento tocando suguitarra." Con el pasar del tiempo,Turner se volvió el vocalista y el líderde la banda debido a que "tenía una grancosa con las letras", según Helders.Antesde su primer concierto, la banda ensayóen el garaje de Turner durante un año,ydespués en un almacén abandonado de unpequeño pueblo llamado Wath. Según lamadre de Helders, quien conducía a losadolescentes a su lugar de ensayo ida yvuelta tres veces a la semana, "si ellossabían que tú estabas ahí, simplementepararían, por lo que nos teníamos queescabullir". Su primer concierto fue unviernes 12 de junio de 2003 en un publocal llamado The Grapes en el centro deSheffield.El setlist, el cual se grabó,estuvo compuesto por cuatro cancionesoriginales y cuatro versiones de coversde The Beatles, The White Stripes, TheUndertones y The Datsuns.<br>
+                            A continuación, se muestran unas fotos icónicas de la banda.</p>
+                        </div>
+                    </div>
+                    <div class="contenedor__imagenesHistoria">
+                        <div class="contenedor-img">
+                            <img class="imgHistoria" src="./img/integrantes-inicios.png" alt="integrantes-inicios" width="600" height="400">
+                        </div>
+                        <div class="contenedor-img">
+                            <img class="imgHistoria" src="./img/integrantes-actualidad.png" alt="integrantes-actualidad" width="600" height="400">
+                        </div>
+                    </div>
+            </section>
+
+            <section class="section__contenedorEmbed">
+                <div class="contenedor-tituloEmbed">
+                    <h2 class="titulo-embed">A continuación, un breve documental de Arctic Monkeys</h2>
+                </div>
+                <div class="contenedor-iframe">
+                    <iframe width="500" height="400" src="https://www.youtube.com/embed/jDocHzX9UK0" title="YouTube video player"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;web-share" allowfullscreen></iframe>
+                </div>
+            </section>
     </main>
+
     <footer class="footer">
-        <div class="footer-color">
-            <h4 class="footer-titulo">Redes Sociales</h4>
-            <div class="contenedor-redes">
-                <a href="https://www.youtube.com/@arcticmonkeys" target="_blank"><img class="imgRedes" src="./img/icons8-youtube-play.svg" alt=""></a>
-                <a href="https://twitter.com/ArcticMonkeys" target="_blank"><img class="imgRedes" src="./img/icons8-twitter.svg" alt=""></a>
-                <a href="https://www.instagram.com/arcticmonkeys/" target="_blank"><img class="imgRedes" src="./img/icons8-instagram.svg" alt=""></a>
-            </div>
+        <div class="contenedor-redes">
+            <a href="https://www.youtube.com/@arcticmonkeys" target="_blank"><img class="imgRedes" src="./img/icons8-youtube-play.svg" alt="youtube"></a>
+            <a href="https://twitter.com/ArcticMonkeys" target="_blank"><img class="imgRedes" src="./img/icons8-twitter.svg" alt="twitter"></a>
+            <a href="https://www.instagram.com/arcticmonkeys/" target="_blank"><img class="imgRedes" src="./img/icons8-instagram.svg" alt="instagram"></a>
+        </div>
+        <div class="footer-contenedorCopy">
+            <h4 class="footer-copy">Todos los derechos reservados, página desarrollada y diseñada por Facundo Casalegno.</h4>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-
 </html>

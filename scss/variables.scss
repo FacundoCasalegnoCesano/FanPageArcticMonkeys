@@ -1,0 +1,27 @@
+$color-bg: #dabfbf;
+$color-navli: #dfcccc;
+$color-navbg: #212529 !important;
+$color-texto: #dfdbdb;
+$color-bgDiv: rgb(26, 24, 24);
+$color-contalbum: gray;
+$color-contintegrantes: #212529;
+$color-footerbg: #212529;
+$color-footercopy: #ede8e8;
+$color-girasinfo: #cfd2d2;
+
+
+
+$estilos-textos:(
+    textoC: center,
+    textoSubr: underline,
+    sombraTexto: -1px 5px 7px rgba(0,0,0,0.40),
+);
+
+$estilos-bordes: (
+    borde-solid-principal: 5px solid #2a2828,
+    radio-borde15: 15px,
+    radio-borde10: 10px,
+    radio-borde20: 20px,
+    radio-borde30: 30px,
+)
+

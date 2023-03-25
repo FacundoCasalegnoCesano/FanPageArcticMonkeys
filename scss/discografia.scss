@@ -1,0 +1,59 @@
+.section__discografia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .contenedor__discografia-titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        .discografia-titulo{
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+    .contenedor__albumes-grid{
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        column-gap: 40px;
+        row-gap: 40px;
+        grid-template-areas:
+        ". . ."
+        ". . ."
+        ". . .";
+        .containerAlbum{
+            background-color: gray;
+            border: 3px solid black;
+            border-radius: 20px;
+            .tituloAlbumes{
+                text-align: center;
+                text-decoration: underline;
+                font-size: 24px;
+                margin: 10px;
+            }
+            .fechaAlbumes{
+                    text-align: center;
+                    font-size: 18px;
+                }
+            .containerimgAlbumes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .imagenAlbum{
+            height: 400px;
+            width: 400px;
+                        }
+                    }
+            .containerbuttons{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px;
+            }
+        }
+    }
+}

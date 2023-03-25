@@ -1,0 +1,20 @@
+.nav_color{
+    background-color: $color-navbg !important;
+    .posicionamiento{
+        width: 100%;
+        justify-content: flex-end;
+        .nav-link{
+            color: $color-navli;
+        }
+    }
+    .contenedorLogo{
+        img{
+            height: 90px !important;
+            width: 90px !important;
+        }
+    }
+}
+
+
+
+

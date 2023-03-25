@@ -1,0 +1,26 @@
+.footer{
+    padding: 1em 0;
+    background-color: $color-footerbg;
+    .contenedor-redes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .imgRedes{
+            height: 60px;
+            padding: 10px;
+            &:hover{
+                height: 68px;
+                animation: 3s linear;
+            }
+        }
+    }
+    .footer-contenedorCopy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .footer-copy{
+            font-size: 18px !important;
+            color: $color-footercopy;
+        }
+    }
+}
